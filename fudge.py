@@ -1,4 +1,4 @@
-# watkins glen fudge co
+# Specc's Fudge
 # building a robot fudge crafter
 import time
 ##
@@ -8,9 +8,16 @@ menu0 = """Fudge\t\t$1.50 per ounce
 Chocolates\t$1.50 per ounce
 Coffee\t\t$2.00 per cup """
 ## Introductions
-print("Hello, welcome to the watkins glen fudge company! My name is alan.")
+print("Hello, welcome to Specc's Fudge! My name is alan.")
 name0 = input("What is the name for your order? ")
-print("Hello " + name0 + ", what can i help you with today?\n")
+## fudge bouncer
+if name0 == "hulb":
+    print("You're not welcome back at Specc's Fudge " + name0 + ". LEAVE!")
+    exit()
+else:
+    print("Hello " + name0 + ", what can i help you with today?\n")
+
+
 print("Here is our menu:\n" + menu0)
 ## Asking for order
 time.sleep(2)
@@ -25,4 +32,3 @@ total = price0 * int(quantity)
 
 print("Okie dokie " + name0 + ". We will have your " + quantity + "x" + order + " ready momentarily!\n")
 print("Your total today will be $" + str(total) + " USD.")
-
