@@ -14,13 +14,14 @@ Italian Machiatto\t$3.75 per cup """
 print("Hello, welcome to Specc's Fudge! My name is alan.")
 name0 = input("What is the name for your order? ")
 ## fudge bouncer
-if name0 == "hulb":
-    evil_status = input("\tAre you bad at VALORANT?\n")
-    if evil_status == "yes":
+if name0 == "yoru" or name0 == "reyna" or name0 == "brimstone":
+    evil_status = input("are you bad at VALORANT?\n")
+    headshot_count = int(input("how many headies have you popped today?\n"))
+    if evil_status == "yes" and headshot_count > 5:
         print("\tYou're not welcome back at Specc's Fudge, " + name0 + ". LEAVE!")
         exit()
     else:
-        print("oh, dope. so you're radiant then? ")
+        print("oh, dope. so you're radiant then. ")
 else:
     print("Hello " + name0 + ", what can i help you with today?\n")
 ## fudge bouncer approved
