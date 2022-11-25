@@ -1,5 +1,5 @@
 # Specc's Fudge
-# building a robot fudge crafter
+# building a robot fudge artisan
 import time
 ##
 ## cls
@@ -10,7 +10,7 @@ Chocolate Beauties\t$1.75 per ounce
 +++
 Coffee\t\t\t$2.00 per cup
 Italian Machiatto\t$3.75 per cup """
-## Introductions
+## introductions
 print("Hello, welcome to Specc's Fudge! My name is alan.")
 name0 = input("What is the name for your order? ")
 ## fudge bouncer
@@ -42,11 +42,13 @@ elif order == "Fudge":
 elif order == "Chocolate Beauties":
     price = 1.75
 else:
-    print("Oops, it doesn't seem like thats an option, please try again.")
+    print("Oops, it doesn't seem like thats available at this time, please try again.")
     price = 0
 quantity = input("How much would you like today? ")
-
+tax = 1.08
 total = price * int(quantity)
+totalTax = total * tax
 
 print("Okie dokie " + name0 + ". We will have your " + quantity + "x" + order + "(s)" + " ready momentarily!\n")
-print("Your total today will be $" + str(total) + " USD.")
+print("Your subtotal today will be $" + str(total) + " USD.")
+print("Your total including tax will be $" + str(totalTax) + " USD.")
