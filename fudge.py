@@ -15,9 +15,9 @@ print("Hello, welcome to Specc's Fudge! My name is alan.")
 name0 = input("What is the name for your order? ")
 ## fudge bouncer
 if name0 == "yoru" or name0 == "reyna" or name0 == "brimstone":
-    evil_status = input("are you bad at VALORANT?\n")
+    bad_status = input("are you bad at VALORANT?\n")
     headshot_count = int(input("how many headies have you popped today?\n"))
-    if evil_status == "yes" and headshot_count > 5:
+    if bad_status == "no" and headshot_count <= 10:
         print("\tYou're not welcome back at Specc's Fudge, " + name0 + ". LEAVE!")
         exit()
     else:
