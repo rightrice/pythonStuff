@@ -6,6 +6,7 @@
  hopefully I can keep this repository more organized and be more active in this one than I was with my C Prog repository
 
  a little back story of each big project
+ 
  **fudge.py**
 fudge is a script i made in the very beginning of my python adventure. my parents have a fudge shop called Specc's Fudge so i wanted to make a script that would resemble taking someones order at the fudge shop. i play a lot of valorant so that is where the banned agents (names) came from as well as radiant rank.
 
