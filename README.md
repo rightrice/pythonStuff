@@ -5,7 +5,7 @@
  
  hopefully I can keep this repository more organized and be more active in this one than I was with my C Prog repository.
 
- a little back story of each big project...*drum roll please*
+ a little back story of each big project...*drum roll please* :)
  
  **fudge.py**
 

@@ -1,4 +1,4 @@
-## heyAlbert ai file
+## heyAlfred ai file
 ## created by rightrice
 import pyttsx3
 import speech_recognition as sr
@@ -12,3 +12,21 @@ class ai():
         self.engine = pyttsx3.init()
         self.r = sr.Recognizer()
         self.m = sr.Microphone()
+
+        if name is not None:
+            self.__name = name
+
+        print("Listening")
+        with self.m as source:
+            self.r.adjust_for_ambient_noise(source)
+
+    @property
+    def name(self):
+        return self.__name
+
+    @name.setter
+    def name(self, value):
+        self.__name = value 
+
+    
+
