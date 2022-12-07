@@ -5,7 +5,7 @@ import speech_recognition as sr
 
 
 class ai():
-    __name = ""
+    __name = "Alfred"
     __skill = []
 
     def __init__(self, name=None):
@@ -32,7 +32,7 @@ class ai():
         self.engine.runAndWait()
 
     def say(self, sentence):
-        self.engine.say(intro)
+        self.engine.say(sentence)
         self.engine.runAndWait()
 
     def listen(self):
@@ -40,13 +40,14 @@ class ai():
         with self.m as source:
             audio = self.r.listen(source)
         print("on it")
-    try:
-        phrase = self.r.recognize_google(audio, show_all=False, language="en")
-        senetence = "Just to confirm, you said" + phrase
-        self.engine.say(intro)
-        self.engine.runAndWait()
-    except e as error:
-        print("Sorry, I didn't hear you",e)
-        self.engine.say("Sorry, I misunderstood")
-        self.engine.runAndWait()
-    print("You said," + phrase)
+        try:
+            phrase = self.r.recognize_google(audio, show_all=False, language="en")
+            sentence = "Just to confirm, you said" + phrase
+            self.engine.say(sentence)
+            self.engine.runAndWait()
+        except e as error:
+            print("Sorry, I didn't hear you",e)
+            self.engine.say("Sorry, I misunderstood")
+            self.engine.runAndWait()
+        print("You said," + phrase)
+        return phrase
