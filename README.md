@@ -25,7 +25,7 @@ heyAlfred is an ai that can hopefully do anything you want it to do with a littl
 
 **weatherBot**
 
-<a href="https://github.com/rightrice/pythonStuff">
+<a href="https://github.com/rightrice/weatherBot">
     <img src="https://img.shields.io/badge/py-weatherBot-orange?style=flat-square">
 </a> 
 
