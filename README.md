@@ -1,4 +1,7 @@
-# python scripts and test files
+<a href="https://github.com/rightrice/pythonStuff/">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rightrice&repo=pythonStuff&theme=aura_dark">
+</a> 
+
 ### python work I have done
 
  anything in the "S23" directory is work I did in my Python Class taken in the Spring 2023 semester at SUNY Canton.
@@ -9,7 +12,7 @@
  
  **fudge.py**
 
- <a href="https://github.com/rightrice/pythonStuff/blob/main/fudge.py">
+<a href="https://github.com/rightrice/pythonStuff/blob/main/fudge.py">
     <img src="https://img.shields.io/badge/py-Fudge-orange?style=flat-square">
 </a> 
 
