@@ -57,4 +57,3 @@ class weather():
 ## test
 rightrice = weather()
 print(rightrice.weather)
-##testing commits cause something is messed up
