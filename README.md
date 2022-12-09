@@ -2,7 +2,9 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=rightrice&repo=pythonStuff&theme=aura_dark">
 </a> 
 
- anything in the "S23" directory is work I did in my Python Class taken in the Spring 2023 semester at SUNY Canton. hopefully I can keep this repository more organized and be more active in this one than I was with my C Prog repository. a little back story of each big project...*drum roll please* :)
+ anything in the "S23" directory is work I did in my Python Class taken in the Spring 2023 semester at SUNY Canton. hopefully I can keep this repository more organized and be more active in this one than I was with my C Prog repository. 
+ 
+a little back story of each big project...*drum roll please* :)
  
  **fudge.py**
 
