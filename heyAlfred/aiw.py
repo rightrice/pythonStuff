@@ -8,7 +8,7 @@ from datetime import datetime
 class weather():
     #default location is Manhattan, NY USA
     __location = "Manhattan, NY"
-    api_key = "0173afab2a3c6c4a054b81e8c675de60"
+    api_key = "INSERT API HERE"
 
     def __init__(self):
         self.ow = OWM(self.api_key)
@@ -23,7 +23,7 @@ class weather():
     
     @property
     def weather(self):
-        forecast = self.mgr.one_call(lat=self.lat, long=self.long)
+        forecast = self.mgr.one_call(lat=self.lat, lon=self.long)
         return forecast
 
     def forecast(self):
