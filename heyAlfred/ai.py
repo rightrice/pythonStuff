@@ -45,8 +45,8 @@ class ai():
             sentence = "Just to confirm, you said" + phrase
             self.engine.say(sentence)
             self.engine.runAndWait()
-        except e as error:
-            print("Sorry, I didn't hear you",e)
+        except error as error:
+            print("Sorry, I didn't hear you",error)
             self.engine.say("Sorry, I misunderstood")
             self.engine.runAndWait()
         print("You said," + phrase)
