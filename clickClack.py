@@ -15,6 +15,4 @@ def clickClack(*paragraph:str) -> None:
         sleep(DELAY)
         
 
-clickClack("hello, I am rightrice.")
-name0 = input("what is your name? ")
-clickClack("hello, " + name0 + "!")
+clickClack("")
