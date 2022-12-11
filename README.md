@@ -32,3 +32,11 @@ heyAlfred is an ai that can hopefully do anything you want it to do with a littl
 </a> 
 
 weatherBot was my first idea when i decided to delve into python deep end first, and ironically is the last one i have started to work on. my plans for weatherBot is to have a script that you text in telegram to get a weather report for wherever you desire. it will call an API from OpenWeatherMap.
+
+**clickClack**
+
+<a href="https://github.com/rightrice/pythonStuff/blob/main/clickClack.py">
+    <img src="https://img.shields.io/badge/py-clickClack-orange?style=flat-square&logo=Python">
+</a> 
+
+clickClack is a fun twist on the terminal. a toast to the old days when typewriters ruled the world of typing. i wanted to pay homage in a way that also played a role in my learning of a new craft, being python. my current issue with the project is that after the intial ```clickClack("hello, i am rightrice")```, the audio stops the rest of the module from running. I will continue to tinker with it along with the rest of my projects.
