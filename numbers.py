@@ -27,3 +27,7 @@ fun_books = 20.00
 # Update total_price here:
 total_price =+ (new_sneakers + nice_sweater + fun_books)
 print("The total price is", total_price)
+
+## exponents
+big_maths = 7 ** 42
+print(big_maths)
