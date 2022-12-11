@@ -10,9 +10,10 @@ def clickClack(*paragraph:str) -> None:
             sys.stdout.write(char)
             sys.stdout.flush()
             sleep(DELAY)
+ #           playsound('typewriter-1.wav')
         print()
         sleep(DELAY)
-        playsound('typewriter-1.wav')
+        
 
 clickClack("hello, I am rightrice.")
 name0 = input("what is your name? ")
