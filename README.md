@@ -15,7 +15,7 @@ a little back story of each big project...*drum roll please* :)
     <img src="https://img.shields.io/badge/py-Fudge-orange?style=flat-square&logo=Python"> 
 </a> 
 
-fudge is a script i made in the very beginning of my python adventure. my parents have a fudge shop called Specc's Fudge so i wanted to make a script that would resemble taking someones order at the fudge shop. i play a lot of valorant so that is where the banned agents (names) came from as well as radiant rank.
+fudge is a script i made in the very beginning of my python adventure. my parents have a fudge shop so i wanted to make a script that would resemble taking someones order at the fudge shop. i play a lot of valorant so that is where the banned agents (names) came from as well as radiant rank.
 
 **heyAlfred**
 
